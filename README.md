@@ -8,6 +8,7 @@
 ## upload.json说明
 --不想编辑格式  可拷贝下来查看。。。
 
+{
 "uploadOpen":"1",   //肯定是1了， 由于从别的项目中剥离，保留了该字段，后期有时间再删除吧。。。
 "uploadPlatform":"fir",  //上传平台
 "ipaName":"ios.ipa",  同目录下上传app的文件名称
@@ -34,3 +35,4 @@
 	},
 "notifyToDingDing":"0",   //是否钉钉通知
 "dingdingUrl":""  //钉钉机器人token地址
+}
