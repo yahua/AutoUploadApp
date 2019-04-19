@@ -34,5 +34,5 @@
         }
 	},
 "notifyToDingDing":"0",   //是否钉钉通知
-"dingdingUrl":""  //钉钉机器人token地址
+"dingdingUrl":""  //钉钉机器人token地址 
 }
