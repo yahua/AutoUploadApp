@@ -6,10 +6,11 @@
 2、自定义功能的话、可运行Upload_Ipa_Project工程
 
 ## upload.json说明
+
 "uploadOpen":"1",   //肯定是1了， 由于从别的项目中剥离，保留了该字段，后期有时间再删除吧。。。
 "uploadPlatform":"fir",  //上传平台
 "ipaName":"ios.ipa",  同目录下上传app的文件名称
-	"uploadPlatformInfo":{
+"uploadPlatformInfo":{
         "payer":{ //蒲公英平台
             "log":"测试payer自动打包上传",
             "uploadUrl":"https://www.pgyer.com/apiv2/app/upload",
@@ -30,5 +31,5 @@
             "ipa_version":"1.0.0"
         }
 	},
-    "notifyToDingDing":"0",   //是否钉钉通知
-    "dingdingUrl":""  //钉钉机器人token地址
+"notifyToDingDing":"0",   //是否钉钉通知
+"dingdingUrl":""  //钉钉机器人token地址
